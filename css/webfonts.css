@@ -1,0 +1,110 @@
+
+@font-face {
+  font-family: 'B Yekan';
+  src: local('☺'),
+  local('B Yekan'),
+  url('../fonts/byekan.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'B Koodak';
+  src: local('☺'),
+  local('B Koodak'),
+  url('../fonts/koodak.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Digi';
+  src: local('☺'),
+  local('Digi Sarve Bold'),
+  url('../fonts/Digi Sarve Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Ghasedak Bold';
+  src: local('☺'),
+  local('Ghasedak Bold'),
+  url('../fonts/Ghasedak Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nozha Regular';
+  src: local('☺'),
+  local('Nozha Regular'),
+  url('../fonts/Nozha Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Vazir En';
+  src:
+  url(../fonts/Vazir/Vazir-Light.woff) format('woff'),
+  url(../fonts/Vazir/Vazir-Light.woff2) format('woff2'),
+  url(../fonts/Vazir/Vazir-Light.eot) format('eot'),
+  url(../fonts/Vazir/Vazir-Light.ttf) format('ttf');
+
+}
+
+@font-face {
+  font-family: 'Vazir';
+  src:
+  url(../fonts/Vazir/Farsi-Digits-Without-Latin/Vazir-Thin-FD-WOL.woff) format('woff'),
+  url(../fonts/Vazir/Farsi-Digits-Without-Latin/Vazir-Thin-FD-WOL.woff2) format('woff2'),
+  url(../fonts/Vazir/Farsi-Digits-Without-Latin/Vazir-Thin-FD-WOL.eot) format('eot'),
+  url(../fonts/Vazir/Farsi-Digits-Without-Latin/Vazir-Thin-FD-WOL.ttf) format('ttf');
+
+  font-weight:100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Vazir';
+  src:
+  url(../fonts/Vazir/Farsi-Digits-Without-Latin/Vazir-Light-FD-WOL.woff) format('woff'),
+  url(../fonts/Vazir/Farsi-Digits-Without-Latin/Vazir-Light-FD-WOL.woff2) format('woff2'),
+  url(../fonts/Vazir/Farsi-Digits-Without-Latin/Vazir-Light-FD-WOL.eot) format('eot'),
+  url(../fonts/Vazir/Farsi-Digits-Without-Latin/Vazir-Light-FD-WOL.ttf) format('ttf');
+
+  font-weight:300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Vazir';
+  src:
+  url(../fonts/Vazir/Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.woff) format('woff'),
+  url(../fonts/Vazir/Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.woff2) format('woff2'),
+  url(../fonts/Vazir/Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.eot) format('eot'),
+  url(../fonts/Vazir/Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.ttf) format('ttf');
+
+  font-weight:500;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'Vazir';
+  src:
+  url(../fonts/Vazir/Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.woff) format('woff'),
+  url(../fonts/Vazir/Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.woff2) format('woff2'),
+  url(../fonts/Vazir/Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.eot) format('eot'),
+  url(../fonts/Vazir/Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.ttf) format('ttf');
+
+  font-weight:700;
+  font-style: normal;
+}
+
+
+
+
