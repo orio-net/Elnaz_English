@@ -502,19 +502,21 @@ body {
   transform: scale(-1);
   filter: drop-shadow(0 0 7px rgba(0, 0, 0, 0.575));
   /* background-color: black; */
-
+  
 }
 
 
 .cloudsTopSmall {
   /* background-color: brown; */
   overflow: hidden;
+  height: 3rem;
 }
 
 .cloudsTopSmall img {
   margin-bottom: -20px;
   filter: drop-shadow(0 0 7px rgba(0, 0, 0, 0.575));
   /* background-color: black; */
+  
 }
 
 
@@ -523,6 +525,7 @@ body {
   /* padding: 0; */
   /* background-color: brown; */
   overflow: hidden;
+  height: 3rem;
   width: 100%;
 }
 
@@ -808,6 +811,10 @@ border-style: solid; */
 
 
 
+
+.footer{
+  user-select: all;
+}
 
 .footerBox {
   pointer-events: none;

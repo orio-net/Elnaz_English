@@ -144,7 +144,6 @@ gsap.to('.navBar ', {
 gsap.to('#mover ', {
   // y:-400,
   opacity: 0,
-
   duration: 0.1,
   scrollTrigger: {
     trigger: '.body',
@@ -155,6 +154,9 @@ gsap.to('#mover ', {
     // markers:true
   }
 })
+
+
+
 
 
 gsap.to('.heroMainBottons ', {
@@ -512,7 +514,7 @@ gsap.from('.middleText ', {
     // pinSpacing:false,
     // scrub:2,
     start: 'top 90%',
-    end: 'top 0%',
+    end: 'bottom 10%',
     toggleActions: 'play reverse play reverse',
 
     // markers:true
