@@ -126,7 +126,7 @@ gsap.to('.navIcon ', {
 
 
 gsap.to('.navBar ', {
-  right: 20,
+  top: '70px',
   duration: 0.5,
   ease: "back.out(1.7)",
   scrollTrigger: {

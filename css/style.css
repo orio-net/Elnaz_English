@@ -4,21 +4,16 @@
   box-sizing: border-box;
 }
 
-
-
-
 a {
   text-decoration: none;
 }
 
 
-
-
-
 p {
+line-height: 1.9em;
   margin: 10px 0 10px 0;
   /* font-size: 18px; */
-  text-align: justify;
+  /* text-align: justify; */
 
   /* text-indent: 10px; */
   /* padding-right: 20px; */
@@ -30,6 +25,7 @@ h3,
 h4,
 h5 {
   margin: 15px 0 10px 0;
+
 }
 
 .thin {
@@ -67,17 +63,11 @@ body {
 
 .BG {
   position: fixed;
-  height: 100vh;
+  height: 100lvh;
   width: 100vw;
   /* background-color: aquamarine; */
   overflow: hidden;
 }
-
-
-
-
-
-
 
 
 .navIcon {
@@ -96,7 +86,7 @@ body {
   background-color: #ececec;
   border: solid #00000025 1px;
   box-shadow: 0 0 3px #0000004f;
-  z-index: 50;
+  z-index: 51;
   transition: 150ms;
 }
 
@@ -159,7 +149,6 @@ body {
 
 
 
-
 .navBar {
   color: white;
   font-size: 25px;
@@ -169,8 +158,8 @@ body {
   cursor: pointer;
   position: fixed;
   justify-content: right;
-  top: 100px;
-  right: -100px;
+  top: -200px;
+  right: 20px;
   height: 180px;
   width: 50px;
   border-radius: 5px 5px 25px 25px;
@@ -242,12 +231,12 @@ body {
   position: absolute;
   z-index: -2;
   background-image: url('../img/Blue_BG.png');
+  /* background-repeat: no-repeat; */
   background-size: cover;
   /* background-repeat: no-repeat; */
-  background-size: 110%;
+  /* background-size: 110%; */
   background-position: center;
-  height: 100vh;
-  width: 100vw;
+  inset: 0;
   /* transition: 50ms ease-out; */
   /* transform: scale(1.05); */
 }
@@ -509,7 +498,7 @@ body {
 .cloudsTopSmall {
   /* background-color: brown; */
   overflow: hidden;
-  height: 3rem;
+  height: 5rem;
 }
 
 .cloudsTopSmall img {
@@ -525,7 +514,7 @@ body {
   /* padding: 0; */
   /* background-color: brown; */
   overflow: hidden;
-  height: 3rem;
+  height: 5rem;
   width: 100%;
 }
 
@@ -551,9 +540,10 @@ body {
   position: relative;
   overflow: hidden;
   z-index: 20;
-
-
+  
 }
+
+
 
 .cloudsTop img {
   margin-bottom: -20px;
@@ -572,7 +562,7 @@ body {
   /* backdrop-filter: blur(5px); */
   padding: 10px;
   width: 100vw;
-  height: 100vh;
+  height: 100lvh;
   color: #ddd;
   display: flex;
   align-items: center;
@@ -586,7 +576,8 @@ body {
   position: fixed;
   /* background-color: #3354ad; */
   max-width: 75%;
-  text-align: justify;
+  /* text-align: justify; */
+  line-height: 1.8em;
   background-color: #fcfcfc0c;
   backdrop-filter: blur(20px);
   padding: 20px;
@@ -597,6 +588,15 @@ body {
 .featureItems p {
   /* font-size: 20px; */
   font-weight: 300;
+  font-size: large;
+  opacity: 80%;
+}
+
+.featureItems h4 {
+  /* font-size: 20px; */
+  font-weight: 700;
+  line-height: 1.6em;
+  margin-bottom: 0.5em;
 }
 
 
@@ -608,7 +608,7 @@ border-style: solid; */
   display: flex;
   font-size: 10vw;
   color: rgb(255, 255, 255);
-  height: 100vh;
+  height: 100lvh;
   padding-top: 100px;
   align-items: center;
 
@@ -645,7 +645,7 @@ border-style: solid; */
 
 
 .aboutDesc {
-  line-height: 25px;
+  line-height: 1.8em;
 }
 
 .aboutDesc h3 {
@@ -793,6 +793,7 @@ border-style: solid; */
   font-weight: 700;
 }
 
+
 /* .prodCol {
   padding: 15px 10px;
   background-color: #fff;
@@ -801,25 +802,29 @@ border-style: solid; */
 .prodCol img {
   border: 1px solid #ddd;
   border-radius: 4px;
-  padding: 5px;
+  padding: 3px;
   width: 100%;
-  border-radius: 15px;
+  border-radius: 10px;
   object-fit: cover;
   background-size: cover;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.288);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.288);
 }
 
 
 
 
 .footer{
-  user-select: all;
+  user-select:auto;
+  /* pointer-events: all; */
+  isolation: isolate;
+  z-index: 30 !important;
 }
 
 .footerBox {
   pointer-events: none;
+  pointer-events: all;
   position: relative;
-  height: 100vh;
+  height: 100lvh;
   width: 100%;
   /* background-color: white; */
   overflow: hidden;
@@ -892,12 +897,13 @@ border-style: solid; */
   padding: 100px;
   position: absolute;
   z-index: 30;
-
+  user-select:text;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
 }
+
 
 .infoBorder {
   /* transition: 150ms; */
@@ -929,14 +935,19 @@ border-style: solid; */
 }
 
 
-/* .prodColPic {
-  width: 25%;
-} */
+.prodColPic img {
+  /* width: 100%; */
+  aspect-ratio: 4 / 3;
+  max-width: 400px;
+  
+}
 
 .prodColText {
   width: 70%;
   line-height: 25px;
   background-color: #fff;
+  max-width: 700px;
+
 }
 
 .cr {
