@@ -802,6 +802,55 @@ gsap.from('.contactInfo ', {
 
 
 
+gsap.from('.stars-layer-one ', {
+  y:'10%',
+  scrollTrigger: {
+    trigger: '.gallery-container',
+    scrub: 0.5,
+    start: 'top 100%',
+    end: 'bottom 0%',
+
+    // markers: true
+  }
+})
+
+gsap.from('.stars-layer-two ', {
+  y:'40%',
+  scrollTrigger: {
+    trigger: '.gallery-container',
+    scrub: 0.5,
+    start: 'top 100%',
+    end: 'bottom 0%',
+
+    // markers: true
+  }
+})
+
+gsap.from('.stars-layer-three ', {
+  y:'70%',
+  scrollTrigger: {
+    trigger: '.gallery-container',
+    scrub: 0.5,
+    start: 'top 100%',
+    end: 'bottom 0%',
+
+    // markers: true
+  }
+})
+
+
+gsap.from('.stars-layer-four ', {
+  y:'100%',
+  scrollTrigger: {
+    trigger: '.gallery-container',
+    scrub: 0.5,
+    start: 'top 100%',
+    end: 'bottom 0%',
+
+    // markers: true
+  }
+})
+
 
 
 
@@ -811,6 +860,20 @@ gsap.from('.footerBG ', {
   opacity: 0,
   scrollTrigger: {
     trigger: '.footer',
+    // scrub: 2,
+    start: 'top 90%',
+    // end: 'top 0%',
+    toggleActions: 'play reverse play reverse',
+
+    // markers: true
+  }
+})
+
+
+gsap.from('.galleryBG ', {
+  opacity: 0,
+  scrollTrigger: {
+    trigger: '.gallery-container',
     // scrub: 2,
     start: 'top 90%',
     // end: 'top 0%',
