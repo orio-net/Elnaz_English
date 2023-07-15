@@ -884,18 +884,5 @@ gsap.from('.galleryBG ', {
 })
 
 
-gsap.from('.dof-near ', {
-  y: '100%',
-  duration:0.1,
-  scrollTrigger: {
-    trigger: '.footer',
-    // scrub: 2,
-    start: 'center 90%',
-    // end: 'top 0%',
-    toggleActions: 'play reverse play reverse',
-
-    // markers: true
-  }
-})
 
 

@@ -38,9 +38,9 @@ h5 {
 }
 
 body {
-  /* margin-right: 200px; */
   direction: rtl;
   font-family: 'Vazir';
+  height: 100lvh;
   /* overflow-x: hidden; */
   color: #222222;
   background-color: #082247;
@@ -241,7 +241,9 @@ body {
   /* background-repeat: no-repeat; */
   /* background-size: 110%; */
   background-position: center;
-  inset: 0;
+  /* inset: 0; */
+  width: 100%;
+  height: 100lvh;
   /* transition: 50ms ease-out; */
   /* transform: scale(1.05); */
 }
@@ -835,8 +837,8 @@ border-style: solid; */
   z-index: -7;
   filter: brightness(70%);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.692);
+  background: linear-gradient(45deg, #051730 , #042146);
 
-  background-image: url('../img/gallery_BG/space-gallery.png');
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -916,7 +918,9 @@ border-style: solid; */
   z-index: -6;
   filter: brightness(70%);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.692);
-  background-image: url('../img/footer_BG/sky.svg');
+  /* background-image: url('../img/footer_BG/sky.svg'); */
+  background: linear-gradient(45deg, #0d2c4b , #184d81);
+
   height: 100%;
   width: 100%;
   position: absolute;
@@ -1037,14 +1041,6 @@ border-style: solid; */
   right: 10px;
   left: 10px;
   z-index: 30;
-}
-
-
-.dof-near {
-  /* background-color: rgba(255, 255, 255, 0.473); */
-  z-index: 12;
-  /* background-color: #3354ad; */
-  backdrop-filter: blur(2px);
 }
 
 
